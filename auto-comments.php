@@ -77,7 +77,7 @@
 			global $wpdb;
 
 			//get the newest comment-timestamp:
-			// (we don't have to go to the DB for this everytime, post_meta gets cached and updated only when the records get updated)
+			// (we don't have to go to the DB for this every time, post_meta gets cached and updated only when the records get updated)
 			$last_commented = get_post_meta( $data['wpc_comment_update']['post_id'], '_wpc_comment_timestamp', true );
 	
 	 		//check the timestamp of our last known version versus the one in the heartbeat:
