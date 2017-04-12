@@ -2,12 +2,12 @@
 /**
  * Plugin Name: Auto updating Comments
  * Plugin URI: http://www.chefduweb.nl
- * Description: Auto-updating comments using the Heartbeat API
+ * Description: Auto-updating comments using websockets
  * Version: 1.0
  * Author: Chef du Web
  * Author URI: http://www.chefduweb.nl
- * Requires at least: 3.6
- * Tested up to: 3.6.1
+ * Requires at least: 4.7
+ * Tested up to: 4.7
  *
  */
 
